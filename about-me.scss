@@ -1,0 +1,396 @@
+.about-me {
+    &>.top-angle-left {
+        top: 110vh;
+    }
+    &>.top-angle-right {
+        top: 110vh;
+    }
+    &>.bottom-angle-left {
+        bottom: -360vh;
+    }
+    &>.bottom-angle-right {
+        bottom: -360vh;
+    }
+    .name {
+        text-align: start;
+        width: 55vw;
+        left: 20vw;
+        top: 59.8vh;
+        color: #00ccff;
+    }
+    .info {
+        &>p {
+        width: 60vw;
+        padding: 10vw;
+        position: absolute;
+        top: 130vh;
+        left: 8vw;
+        background-color: #000033;
+        border-bottom: 5px solid #336699;
+    }
+    &>img {
+        width: 90vw;
+        height: 85vh;
+        position: absolute;
+        top: 170vh;
+        left: 2vh;
+        margin-left: 5px;
+    }
+    }
+    &>ul {
+        position: relative;
+        top: 195vh;
+        width: 80vw;
+        &>li {
+            &>p {
+                display: inline-block;
+                color: gray;
+            }
+        }
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        display: block;
+        width: 80vw;
+        padding: 1em;
+        position: relative;
+        top: 195vh;
+        left: 15px;
+        margin-bottom: 1em;
+        border-radius: 20px;
+        background-color: white;
+        text-align: center;
+        &:hover {
+            background-color: #00ccff;
+        }
+    }
+    .list {
+        width: 80vw;
+        height: 30vh;
+        left: 15px;
+        background-color: #000033;
+        border-top: 5px solid #336699;
+        &>.briefcase {
+            width: 40vw;
+            &>div {
+                color: #00ccff;
+                font-size: 3em;
+                position: relative;
+                left: 50px;
+            }
+            &>h2 {
+                position: relative;
+                left: 60px;
+                margin: 0;
+            }
+        }
+        &>.heart {
+            width: 40vw;
+            position: absolute;
+            left: 50vw;
+            top: 0;
+            &>div {
+                color: #00ccff;
+                font-size: 3em;
+                position: relative;
+                left: 50px;
+                display: inline-block;
+            }
+            &>h2 {
+                position: relative;
+                left: 67px;
+                margin: 0;
+            }
+        }
+        &>.handshake {
+            width: 40vw;
+            &>div {
+                color: #00ccff;
+                font-size: 3em;
+                position: relative;
+                left: 50px;
+            }
+            &>h2 {
+                position: relative;
+                left: 60px;
+                margin: 0;
+            }
+        }
+        &>.award {
+            width: 40vw;
+            position: absolute;
+            left: 50vw;
+            top: 14vh;
+            &>div {
+                color: #00ccff;
+                font-size: 3em;
+                position: relative;
+                left: 50px;
+                display: inline-block;
+            }
+            &>h2 {
+                position: relative;
+                left: 67px;
+                margin: 0;
+            }
+        }
+    }
+    &>h1 {
+        color: #00ccff;
+        position: relative;
+        top: 195vh;
+    }
+    .lista {
+        margin-left: 15px;
+        width: 80vw;
+        height: 73vh;
+        background-color: #000033;
+        border-bottom: 5px solid #336699;
+        &>.LEADERSHIP {
+            width: 70vw;
+            height: 8vh;
+            padding-top: 5vh;
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+            }
+            &>.cerc {
+                position: absolute;
+                top: 8vh;
+                left: 4vw;
+                z-index: 1;
+                width: 2vw;
+                height: 1.5vh;
+                background-color: white;
+                border: 5px solid #00ccff;
+                border-radius: 100%;
+            }
+            &>p {
+                position: relative;
+                left: 70vw;
+                top: -6vh;
+            }
+        }
+        &>.TEAMWORK {
+            width: 70vw;
+            height: 8vh;
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 0;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 70vw;
+                top: -6vh;
+            }
+        }
+        &>.COMMUNICATION {
+            width: 70vw;
+            height: 8vh;
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 0;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 70vw;
+                top: -6vh;
+            }
+        }
+        &>.Problem {
+            width: 70vw;
+            height: 8vh;
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 0;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 70vw;
+                top: -6vh;
+            }
+        }
+        &>.HTML-CSS {
+            width: 70vw;
+            height: 8vh;    
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.albastru {
+                    border-radius: 20px;
+                    height: 2vh;
+                    width: 10vw;
+                    background-color: #00ccff;
+                }
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 8vw;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 62vw;
+                top: -6vh;
+            }
+        }
+        &>.JAVASCRIPT {
+            width: 70vw;
+            height: 8vh;
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 0;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 70vw;
+                top: -6vh;
+            }
+        }
+        &>.PHP {
+            width: 70vw;
+            height: 8vh;    
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 0;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 70vw;
+                top: -6vh;
+            }
+        }
+        &>.UX-UI {
+            width: 70vw;
+            height: 8vh;
+            &>.alb {
+                position: relative;
+                top: 1vh;
+                left: -3vw;
+                width: 80vw;
+                height: 2vh;
+                background-color: white;
+                border-radius: 20px;
+                &>.albastru {
+                    border-radius: 20px;
+                    height: 2vh;
+                    width: 10vw;
+                    background-color: #00ccff;
+                }
+                &>.cerc {
+                    position: absolute;
+                    top: -0.5vh;
+                    left: 8vw;
+                    z-index: 1;
+                    width: 2vw;
+                    height: 1.5vh;
+                    background-color: white;
+                    border: 5px solid #00ccff;
+                    border-radius: 100%;
+                }
+            }
+            &>p {
+                position: relative;
+                left: 68vw;
+                top: -6vh;
+            }
+        }
+    }
+}
